@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+}
+.grid-container > .uno {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+.grid-container > .dos {
+    background-color: rgb(143, 233, 236);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+.cont_pago {
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 40%;
+    border: 3px solid #000000;
+    border-radius: 15px;
+}
+.cont_medios {
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 10%;
+    border: 3px solid #000000;
+    border-radius: 15px;
+}
