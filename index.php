@@ -13,7 +13,8 @@
         <meta name="copyright" content="">
         <meta name="robots" content="index, followe">
         <meta name="keywords" content="aplicacion web de seguimiento de suscripciones para recordar pagos">
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="https://kit.fontawesome.com/378147e0d2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="grid-container">
@@ -21,7 +22,7 @@
         <div class="uno">Fechas de Pagos</div>
         <div class="uno">Medios de Pagos</div>  
         <div class="dos">
-            
+            <div><i class="fa-solid fa-arrow-right"></i></div>
         </div>
         <div class="dos">
             <div class="cont_pago">Pago1</div>
